@@ -81,28 +81,28 @@ $(document).ready(function() {
 
     if (ruby > css && ruby > cSharp && ruby > dont) {
       $("#questions").hide();
-      $(".header-content").hide();
+      $("#header-content").hide();
       $("#ruby").show();
       $("#try-again").show();
     }
 
     if (css > ruby && css > cSharp && css > dont) {
       $("#questions").hide();
-      $(".header-content").hide();
+      $("#header-content").hide();
       $("#css").show();
       $("#try-again").show();
     }
 
     if (cSharp > css && cSharp > ruby && cSharp > dont) {
       $("#questions").hide();
-      $(".header-content").hide();
+      $("#header-content").hide();
       $("#cSharp").show();
       $("#try-again").show();
     }
 
     if (dont > css && dont > cSharp && dont > ruby) {
       $("#questions").hide();
-      $(".header-content").hide();
+      $("#header-content").hide();
       $("#dont").show();
       $("#try-again").show();
     }
@@ -113,17 +113,17 @@ $(document).ready(function() {
 
   // Reset
   $("#again").click(function(event) {
-    var ruby = 0;
-    var css = 0;
-    var cSharp = 0;
-    var dont = 0;
+    ruby = 0;
+    css = 0;
+    cSharp = 0;
+    dont = 0;
 
     $("#questions").show();
     $("#try-again").hide();
     $("#ruby").hide();
     $("#css").hide();
     $("#cSharp").hide();
-    $("dont").hide();
+    $("#dont").hide();
 
     console.log("Ruby " + ruby);
     console.log("CSS " + css);
