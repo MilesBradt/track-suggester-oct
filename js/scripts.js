@@ -81,6 +81,19 @@ $(document).ready(function() {
       birb += 1
     }
 
+    if (ruby == css && ruby == cSharp  && css == cSharp) {
+      $("#questions").hide();
+      $("#header-content").hide();
+      $(".header-text-p").hide();
+      $("#all").show();
+      $("#ruby").show();
+      $("#css").show();
+      $("#cSharp").show();
+      $("#try-again").show();
+      $("#other").hide();
+      $("#dont").hide();
+    }
+
     if (ruby > css && ruby > cSharp && ruby > dont) {
       $("#questions").hide();
       $("#header-content").hide();
