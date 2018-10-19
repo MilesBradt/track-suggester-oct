@@ -26,5 +26,69 @@ body {
 }
 
 .header-text {
-  
+
+}
+
+a#ruby-link {
+  font-size: 72px;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: olor 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+
+a#ruby-link:hover {
+  font-size: 72px;
+  color: #A6031C;
+  -webkit-transition: olor 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+
+a#css-link {
+  font-size: 72px;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: olor 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+
+a#css-link:hover {
+  font-size: 72px;
+  color: #5F698D;
+  -webkit-transition: olor 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+
+a#cSharp-link {
+  font-size: 72px;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: olor 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+
+a#cSharp-link:hover {
+  font-size: 72px;
+  color: #5B3569;
+  text-decoration: none;
+  -webkit-transition: olor 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+
+.logo {
+  width: 75px;
+  float: left;
+  margin-right: 25px;
 }
