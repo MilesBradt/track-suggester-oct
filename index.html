@@ -10,12 +10,18 @@
   </head>
   <body>
     <div class="jumbotron">
-      <img id="img-header" src="img/hackervoiceimin.jpg">
-      <h1 id="header-text">Track Suggester</h1>
-      <p>Picking which language to start off with can be a bit overwhelming.</p>
-      <p>Most programmers will suggest you just pick any and start from there, which they aren't wrong.</p>
-      <p>But a basic understanding on what main programming languages that are out there helps.</p>
-      <p>This short quiz is designed to help guide you with basic information on a language you might enjoy.</p>
+      <div id="try-again">
+        <h3>Would you like to try this again?</h3>
+        <button  id="again" type="click" name="button">Try Again</button>
+      </div>
+      <div class="header-content">
+        <img id="img-header" src="img/hackervoiceimin.jpg">
+        <h1 id="header-text">Track Suggester</h1>
+        <p>Picking which language to start off with can be a bit overwhelming.</p>
+        <p>Most programmers will suggest you just pick any and start from there, which they aren't wrong.</p>
+        <p>But a basic understanding on what main programming languages that are out there helps.</p>
+        <p>This short quiz is designed to help guide you with basic information on a language you might enjoy.</p>
+      </div>
     </div>
     <div class="container">
       <div class="row">
@@ -162,21 +168,23 @@
         </div>
       </div>
     </div>
-    <div id="try-again">
-      <h3>Would you like to try this again?</h3>
-      <button  id="again" type="click" name="button">Try Again</button>
-    </div>
-    <div id="ruby">
-      <h1>You have been suggested Ruby</h1>
-    </div>
-    <div id="css">
-      <h1>You have been suggested CSS</h1>
-    </div>
-    <div id="cSharp">
-      <h1>You have been suggested C#</h1>
-    </div>
-    <div id="dont">
-      <h1>You have been suggested that maybe you shouldn't</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="ruby">
+            <h1>You have been suggested Ruby</h1>
+          </div>
+          <div id="css">
+            <h1>You have been suggested CSS</h1>
+          </div>
+          <div id="cSharp">
+            <h1>You have been suggested C#</h1>
+          </div>
+          <div id="dont">
+            <h1>You have been suggested that maybe you shouldn't</h1>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
