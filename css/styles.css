@@ -17,7 +17,7 @@ body {
   border-radius: 0%;
 }
 
-#ruby, #css, #cSharp, #dont, #try-again, #trying-again, #birb {
+#ruby, #css, #cSharp, #dont, #try-again, #trying-again, #other, #birb {
   display: none;
 }
 
@@ -109,6 +109,15 @@ a#cSharp-link:hover {
   transition: color 0.25s ease-out;
 }
 
+a {
+  font-weight: bold;
+  color: #C5C8D9;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #DEDDDE;
+}
 
 /* Buttons */
 .btn {
