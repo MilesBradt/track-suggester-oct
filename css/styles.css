@@ -1,3 +1,21 @@
 #ruby, #css, #cSharp, #dont, #try-again{
   display: none;
 }
+
+#header-text {
+  
+}
+
+#questions {
+
+}
+
+#img-header {
+  width: 450px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  text-align: center;
+}
