@@ -134,6 +134,10 @@ $(document).ready(function() {
       $("#questions").hide();
       $("#header-content").hide();
       $(".header-text-p").hide();
+      $("#all").hide();
+      $("#ruby").hide();
+      $("#css").hide();
+      $("#cSharp").hide();
       $("#birb").show();
     }
 
@@ -149,6 +153,7 @@ $(document).ready(function() {
     $("#cSharp").show();
     $("#other").hide();
     $("#dont").hide();
+    $("#birb").hide();
     event.preventDefault();
   });
 
@@ -167,6 +172,7 @@ $(document).ready(function() {
     $("#css").hide();
     $("#cSharp").hide();
     $("#dont").hide();
+    $("#birb").hide();
     event.preventDefault();
   });
 });
