@@ -1,16 +1,31 @@
 body {
   padding-bottom: 30px;
+  background-color: #4A5159;
+  color: #C5C8D9;
+}
+
+.header-styling {
+  background-color: #363B40;
+  color: #C5C8D9;
+}
+
+.questions-styling {
+  background-color: #4A5159;
+  color: #C5C8D9;
 }
 
 #ruby, #css, #cSharp, #dont, #try-again{
   display: none;
 }
 
+.btn {
+  color: #1A1C1F;
+  font-weight: bold;
+}
 
-
-
-#questions {
-
+.btn:hover {
+  color: #363B40;
+  font-weight: bold;
 }
 
 #img-header {
@@ -26,12 +41,12 @@ body {
 }
 
 .header-text {
-
+  font-size: 72px;
 }
 
 a#ruby-link {
   font-size: 72px;
-  color: black;
+  color: #C5C8D9;
   text-decoration: none;
   -webkit-transition: olor 0.25s ease-out;
   -moz-transition: color 0.25s ease-out;
@@ -50,7 +65,7 @@ a#ruby-link:hover {
 
 a#css-link {
   font-size: 72px;
-  color: black;
+  color: #C5C8D9;
   text-decoration: none;
   -webkit-transition: olor 0.25s ease-out;
   -moz-transition: color 0.25s ease-out;
@@ -60,7 +75,7 @@ a#css-link {
 
 a#css-link:hover {
   font-size: 72px;
-  color: #5F698D;
+  color: #11377F;
   -webkit-transition: olor 0.25s ease-out;
   -moz-transition: color 0.25s ease-out;
   -o-transition: color 0.25s ease-out;
@@ -69,7 +84,7 @@ a#css-link:hover {
 
 a#cSharp-link {
   font-size: 72px;
-  color: black;
+  color: #C5C8D9;
   text-decoration: none;
   -webkit-transition: olor 0.25s ease-out;
   -moz-transition: color 0.25s ease-out;
