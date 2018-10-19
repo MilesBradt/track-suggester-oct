@@ -12,12 +12,12 @@ body {
   margin-right: 25px;
 }
 
-.panel{
+.panel {
   text-align: center;
   border-radius: 0%;
 }
 
-#ruby, #css, #cSharp, #dont, #try-again{
+#ruby, #css, #cSharp, #dont, #try-again, #trying-again, #birb {
   display: none;
 }
 
@@ -38,17 +38,17 @@ body {
   color: #C5C8D9;
 }
 
-.questions-styling {
-  background-color: #4A5159;
-  color: #C5C8D9;
-}
-
 .header-text {
-  font-size: 72px;
+  font-size: 90px;
 }
 
 .header-text-p {
   font-size: 16px;
+}
+
+.questions-styling {
+  background-color: #4A5159;
+  color: #C5C8D9;
 }
 
 a#ruby-link {

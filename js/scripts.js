@@ -2,6 +2,7 @@ var ruby = 0;
 var css = 0;
 var cSharp = 0;
 var dont = 0; //it's all about the money
+var birb = 0;
 
 $(document).ready(function() {
   $(".tracks").submit(function(event) {
@@ -74,10 +75,11 @@ $(document).ready(function() {
         dont += 1
       }
 
-    console.log("Ruby " + ruby);
-    console.log("CSS " + css);
-    console.log("C# " + cSharp);
-    console.log("Don't " + dont);
+    // Easter egg data
+    var birbData = $("input:radio[name=birbData]:checked").val();
+    if (birbData === "birb") {
+      birb += 1
+    }
 
     if (ruby > css && ruby > cSharp && ruby > dont) {
       $("#questions").hide();
@@ -111,6 +113,13 @@ $(document).ready(function() {
       $("#try-again").show();
     }
 
+    if (birb > css && birb > ruby && birb > cSharp && birb > dont) {
+      $("#questions").hide();
+      $("#header-content").hide();
+      $(".header-text-p").hide();
+      $("#birb").show();
+    }
+
     $('input[type="radio"]').prop('checked', false);
     event.preventDefault();
   });
@@ -123,16 +132,13 @@ $(document).ready(function() {
     dont = 0;
 
     $("#questions").show();
+    $("#trying-again").show();
     $("#try-again").hide();
     $("#ruby").hide();
     $("#css").hide();
     $("#cSharp").hide();
     $("#dont").hide();
 
-    console.log("Ruby " + ruby);
-    console.log("CSS " + css);
-    console.log("C# " + cSharp);
-    console.log("Don't " + dont);
     event.preventDefault();
   });
 });
