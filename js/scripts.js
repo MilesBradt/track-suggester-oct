@@ -115,7 +115,7 @@ $(document).ready(function() {
     var dont = 0;
 
     $("#questions").show();
-    $("#again").hide();
+    $("#try-again").hide();
     $("#ruby").hide();
     $("#css").hide();
     $("#cSharp").hide();
