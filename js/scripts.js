@@ -82,6 +82,7 @@ $(document).ready(function() {
     if (ruby > css && ruby > cSharp && ruby > dont) {
       $("#questions").hide();
       $("#header-content").hide();
+      $(".header-text-p").hide();
       $("#ruby").show();
       $("#try-again").show();
     }
@@ -89,6 +90,7 @@ $(document).ready(function() {
     if (css > ruby && css > cSharp && css > dont) {
       $("#questions").hide();
       $("#header-content").hide();
+      $(".header-text-p").hide();
       $("#css").show();
       $("#try-again").show();
     }
@@ -96,6 +98,7 @@ $(document).ready(function() {
     if (cSharp > css && cSharp > ruby && cSharp > dont) {
       $("#questions").hide();
       $("#header-content").hide();
+      $(".header-text-p").hide();
       $("#cSharp").show();
       $("#try-again").show();
     }
@@ -103,6 +106,7 @@ $(document).ready(function() {
     if (dont > css && dont > cSharp && dont > ruby) {
       $("#questions").hide();
       $("#header-content").hide();
+      $(".header-text-p").hide();
       $("#dont").show();
       $("#try-again").show();
     }
